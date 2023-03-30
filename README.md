@@ -1,10 +1,13 @@
 # DevRev CLI
-official website <a href="https://devrev.ai">DevRev</a>
+Official website <a href="https://devrev.ai">DevRev</a>
 
 ### Installation
-
+Firstly, download devrev.rb file
+```
+$ brew install <path>/devrev.rb
+```
 ```bash
-$ brew install devrev
+$ brew install devrev.rb
 ``` 
 ## Usage
 The DevRev CLI provides several subcommands that can be used to perform various tasks. Here are some examples:
@@ -32,7 +35,7 @@ $ devrev --help
 
 ## License
 
-DevRev CLI is proprietary software and is not open source. You may use it for your own commercial use, but you may not distribute or modify it without our permission.
+DevRev CLI is proprietary software and is not open source. You may use it for your commercial use, but you may not distribute or modify it without our permission.
 
 ## Support
-If you have any issues or questions about DevRev CLI, please contact our support team at <yet-to-name>@devrev.ai
+If you have any issues or questions about DevRev CLI, please contact our support team at <a href="https://devrev.ai">DevRev</a>
