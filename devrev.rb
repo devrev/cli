@@ -6,7 +6,7 @@ class Devrev < Formula
   on_macos do
       if Hardware::CPU.arm?
         url "https://github.com/devrev/brew-devrev-cli/releases/download/v0.3.2/devrev_0.3.2_Darwin_arm64.tar.gz"
-        sha256 "cd2e448b6aaa9f84ac22c13eabe27b33fb3f9fff741241a97338c372e92c6096"
+        sha256 "c53d458bb37c65a01f156461d6b36cb0ea30a664bec9072e8b6baab5b3b98ad3"
         def install
           bin.install "devrev"
         end
@@ -17,7 +17,7 @@ gateway version 2e39352305a8596ba6a8e78707be80d7e4abcde7" , shell_output("devrev
       end
       if Hardware::CPU.intel?
         url "https://github.com/devrev/brew-devrev-cli/releases/download/v0.3.2/devrev_0.3.2_Darwin_x86_64.tar.gz"
-        sha256 "ce2f19e92adb5d72abaae0509ca86851b4e58a8f25650d44199b10230b9db63e"
+        sha256 "ed87298ac2af8167c5a623b9afc91a7da21a48125a27852e1fa10f8e8ba1b35c"
         def install
           bin.install "devrev"
         end
@@ -30,7 +30,7 @@ gateway version 2e39352305a8596ba6a8e78707be80d7e4abcde7" , shell_output("devrev
     on_linux do
       if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
         url "https://github.com/devrev/brew-devrev-cli/releases/download/v0.3.2/devrev_0.3.2_Linux_arm64.tar.gz"
-        sha256 "697b548008e6c7e320071ea240c867d1188ca91bfad7d16611597a48088709cd"
+        sha256 "80b6351ea35a3ec861d0454f3f40dd83e446f38466d17da247b89504af4b2f2b"
         def install
           bin.install "devrev"
         end
@@ -41,7 +41,7 @@ gateway version 2e39352305a8596ba6a8e78707be80d7e4abcde7" , shell_output("devrev
       end
       if Hardware::CPU.intel?
         url "https://github.com/devrev/brew-devrev-cli/releases/download/v0.3.2/devrev_0.3.2_Linux_x86_64.tar.gz"
-        sha256 "bb7d29192875739886ec00271f543d07967d349f06a4819ac770e93b5e493580"
+        sha256 "9a79c74b8a8a0b4ec9a9d8c86b409efd40d303a6ac8f02c069e4dfd10f0ea523"
         def install
           bin.install "devrev"
         end
