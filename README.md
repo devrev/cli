@@ -10,6 +10,11 @@ Install the downloaded brew formula devrev.rb
 ```bash
 $ brew install ./devrev.rb
 ``` 
+also run the below command
+```bash
+$ curl -O https://raw.githubusercontent.com/devrev/brew-devrev-cli/main/install_completions.sh && sh install_completions.sh /opt/homebrew/bin/devrev
+``` 
+Note: <b>/opt/homebrew/bin/devrev</b> path may vary based on your homebrew installation 
 ### Uninstall
 ```bash
 $ brew uninstall devrev
