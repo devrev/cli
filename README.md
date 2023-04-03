@@ -4,12 +4,17 @@ Official website <a href="https://devrev.ai">DevRev</a>
 ### Installation
 Firstly, download devrev.rb file
 ```
-$ brew install <path>/devrev.rb
+$  curl -O https://raw.githubusercontent.com/devrev/brew-devrev-cli/main/devrev.rb
 ```
+Install the downloaded brew formula devrev.rb
 ```bash
-$ brew install devrev.rb
+$ brew install ./devrev.rb
 ``` 
-## Usage
+### Uninstall
+```bash
+$ brew uninstall devrev
+``` 
+### Usage
 The DevRev CLI provides several subcommands that can be used to perform various tasks. Here are some examples:
 
 ### devrev version
@@ -33,7 +38,7 @@ $ devrev profiles authenticate --org <DevOrg-slug-name> --usr <your-email@exampl
 $ devrev --help
 ```
 
-## License
+### License
 
 DevRev CLI is proprietary software and is not open source. You may use it for your commercial use, but you may not distribute or modify it without our permission.
 
