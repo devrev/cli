@@ -1,25 +1,51 @@
 # DevRev CLI
 Official website <a href="https://devrev.ai">DevRev</a>
 
-### Installation
-Firstly, download devrev.rb file
+## Installation with Homebrew
+- darwin amd64
+- darwin arm64
+- linux arm64
+- linux amd64
+### Version v0.3.2 <br>
+Download the brew formula devrev.rb<br>
+click here to download <a href="https://github.com/devrev/brew-devrev-cli/releases/download/v0.3.2/devrev.rb">DevRev Formula</a> or run the below command
+```bash
+$  curl -LJO https://github.com/devrev/brew-devrev-cli/releases/download/v0.3.2/devrev.rb
 ```
-$  curl -O https://raw.githubusercontent.com/devrev/brew-devrev-cli/main/devrev.rb
-```
-Install the downloaded brew formula devrev.rb
+move to the downloaded directory and install the downloaded Homebrew formula devrev.rb using below brew command
 ```bash
 $ brew install ./devrev.rb
 ``` 
-also run the below command
+also run the below command to install the completions
 ```bash
 $ curl -O https://raw.githubusercontent.com/devrev/brew-devrev-cli/main/install_completions.sh && sh install_completions.sh /opt/homebrew/bin/devrev
 ``` 
-Note: <b>/opt/homebrew/bin/devrev</b> path may vary based on your homebrew installation 
+Note: <b>/opt/homebrew/bin/devrev</b> path may vary based on your homebrew installation
 ### Uninstall
 ```bash
 $ brew uninstall devrev
+```
+## Installation with Debian Package
+- linux amd64
+- linux arm64
+### Version v0.3.2 <br>
+Download the debian package<br>
+click here to download <a href="https://github.com/devrev/brew-devrev-cli/releases/download/v0.3.2/devrev_0.3.2-linux_amd64.deb">Linux AMD64</a> 
+| <a href="https://github.com/devrev/brew-devrev-cli/releases/download/v0.3.2/devrev_0.3.2-linux_arm64.deb">Linux ARM64</a> <br>
+
+Note: move to the downloaded directory and install the debian package using below dpkg command
+```bash
+$ sudo dpkg -i devrev_0.3.2-linux_amd64.deb
 ``` 
-### Usage
+```bash
+$ sudo dpkg -i devrev_0.3.2-linux_arm64.deb
+``` 
+Note: /usr/local/bin/devrev path may vary based on your installation
+### Uninstall
+```bash
+$ sudo dpkg -r devrev
+```
+## Usage
 The DevRev CLI provides several subcommands that can be used to perform various tasks. Here are some examples:
 
 ### devrev version
