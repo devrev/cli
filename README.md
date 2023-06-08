@@ -10,7 +10,7 @@ Official website <a href="https://devrev.ai">DevRev</a>
 Download the brew formula devrev.rb<br>
 click here to download <a href="https://github.com/devrev/public-devrev-cli/releases/download/v0.3.2/devrev.rb">DevRev Formula</a> or run the below command
 ```bash
-$  curl -LJO https://github.com/devrev/public-devrev-cli/releases/download/v0.3.2/devrev.rb
+$  wget https://github.com/devrev/public-devrev-cli/releases/download/v0.3.2/devrev.rb
 ```
 move to the downloaded directory and install the downloaded Homebrew formula devrev.rb using below brew command
 ```bash
@@ -18,7 +18,7 @@ $ brew install ./devrev.rb
 ``` 
 also run the below command to install the completions
 ```bash
-$ curl -O https://raw.githubusercontent.com/devrev/public-devrev-cli/main/install_completions.sh && sh install_completions.sh /opt/homebrew/bin/devrev
+$ wget https://raw.githubusercontent.com/devrev/public-devrev-cli/main/install_completions.sh && sh install_completions.sh /opt/homebrew/bin/devrev
 ``` 
 Note: <b>/opt/homebrew/bin/devrev</b> path may vary based on your homebrew installation
 ### Uninstall
