@@ -69,7 +69,7 @@ $ devrev profiles authenticate --org <DevOrg-slug-name> --usr <your-email@exampl
 $ devrev --help
 ```
 
-### License
+### License 
 
 DevRev CLI is proprietary software and is not open source. You may use it for your commercial use, but you may not distribute or modify it without our permission.
 
