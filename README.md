@@ -14,13 +14,13 @@ Download the debian package from [https://github.com/devrev/cli/releases/latest]
 and install it using the following command:
 
 ```bash
-sudo dpkg -i devrev_0.4.0-linux_amd64.deb
+sudo dpkg -i devrev_0.4.7-linux_amd64.deb
 ```
 
 or
 
 ```bash
-sudo dpkg -i devrev_0.4.0-linux_arm64.deb
+sudo dpkg -i devrev_0.4.7-linux_arm64.deb
 ```
 
 also run the below command to **install the completions**:
